@@ -1,7 +1,13 @@
+import Navbar from "./components/Navbar";
+import SignIn from "./components/SignIn";
+import SignUp from "./components/SignUp";
+
 function App() {
   return (
     <>
-      <h1>Helloww</h1>
+      <Navbar />
+      <SignIn />
+      <SignUp />
     </>
   );
 }
