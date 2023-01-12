@@ -29,7 +29,7 @@ const SignIn = () => {
             Remember me
           </label>
         </div>
-        <div className="w-auto flex items-center justify-center">
+        <div className="w-auto flex items-center justify-center text-xs">
           <a className="text-red underline font-medium" href="/">
             Create an account
           </a>
