@@ -3,7 +3,7 @@ import Elapproved from "../assets/Untitled-1.png";
 
 const Home = () => {
   return (
-    <div name="home" className="w-full h-full">
+    <div name="home" className="flex flex-col h-screen my-auto items-center">
       <div className="w-screen h-full grid grid-cols-2 gap-10  content-center justify-center px-12 z-10">
         <div className="container h-[120px]   mb-4">
           <h1 className="text-5xl font-bold py-5">Best Way to Order Kaela's Merch</h1>
@@ -17,6 +17,9 @@ const Home = () => {
         <div className="px-8 pt-6 pb-8 mb-4">
           <img className="max-w-full h-auto flex flex-col" src={Elapproved} alt="elapprove" />
         </div>
+      </div>
+      <div className="w-screen h-full grid grid-cols-3 gap-5 flex-col px-10">
+        <div className="w-[240px] h-[240px] bg-red px-8 pt-6 pb-8 mb-4 rounded-lg border-2 border-black"></div>
       </div>
     </div>
   );
