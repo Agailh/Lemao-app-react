@@ -8,8 +8,8 @@ const Navbar = () => {
       <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 shadow-lg">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <a href="/" className="flex items-center">
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-black">Kae</span>
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-red">lemao</span>
+            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-black">Kae</span>
+            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-red">lemao</span>
           </a>
           <div className="flex md:order-2 space-x-5">
             <a href="/" className="flex items-center ">
