@@ -23,7 +23,7 @@ const Home = () => {
           <img className="w-16 md:w-[240px] lg:w-[470px] h-auto flex flex-col" src={Elapproved} alt="elapprove" />
         </div>
       </div>
-      <div className="w-screen h-full  grid-cols-3 gap-10 flex-initial flex items-center justify-center pt-[100px]">
+      <div className="w-auto h-auto  grid-cols-3 gap-10 flex-initial flex items-center justify-center pt-[100px]">
         <div className="lg:w-[320px] lg:h-[300px] bg-gradient-to-b from-red via-darkred to-black px-8 pt-6 pb-8 mb-4 rounded-lg border-4 border-black">
           <div className="-mt-[130px]">
             <img className="drop-shadow-xl rounded-lg" src={product1} alt="product1" />
