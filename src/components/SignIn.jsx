@@ -5,7 +5,7 @@ import Hero from "../assets/kaela-catet.jpg";
 
 const SignIn = () => {
   return (
-    <div className="h-[720px] w-screen  grid grid-cols-2 gap-10  items-center justify-center px-10 z-10">
+    <div className="h-[720px] w-screen  grid grid-cols-2 gap-10  items-center justify-center px-10 py-10 z-10">
       <div className="mb-4">
         <img className="max-w-full h-auto shadow-lg rounded-3xl  flex flex-col" src={Hero} alt="hero" />
       </div>
