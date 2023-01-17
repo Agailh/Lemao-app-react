@@ -13,7 +13,11 @@ module.exports = {
       black: "#000000",
     },
 
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "hero-pattern": "url('/public/logo512.png')",
+      },
+    },
   },
   plugins: [],
 };
