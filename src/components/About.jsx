@@ -3,12 +3,8 @@ import BGh from "../assets/Kaela_HolidayGift.jpg";
 
 const About = () => {
   return (
-    <div Name="About">
-      <div className="w-full my-40">
-        <div className="bg-cover bg-center">
-          <img src={BGh} />
-        </div>
-      </div>
+    <div Name="About" className=" flex flex-col h-screen my-auto content-center pt-[250px] pb-10">
+      <div className="w-full h-full bg- bg-opacity-20 "></div>
     </div>
   );
 };
