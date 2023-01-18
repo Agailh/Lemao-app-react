@@ -33,7 +33,7 @@ const About = () => {
           <Icon className=" h-9 w-9" icon="logos:youtube-icon" />
           <h2 className="text-white font-bold font-sans text-lg">Kaela Kovalskia Ch. hololive-ID</h2>
         </div>
-        <div className="grid grid-cols-4 justify-center  pt-[100px] pb-10">
+        <div className="max-w-full grid grid-cols-4 justify-center  pt-[100px] pb-10">
           <div className="flex flex-wrap justify-center space-x-1">
             <Icon className=" h-7 w-7" icon="logos:twitter" />
             <h2 className="text-white">@KaelaKovalskia</h2>
